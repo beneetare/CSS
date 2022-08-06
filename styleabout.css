@@ -1,0 +1,48 @@
+/*Selector{
+	Property: value;
+}*/
+*{
+	text-align: right;
+}
+body{
+	background-image: url(dodge.jpg);
+	background-size: cover;
+}
+
+h2+p{
+	text-align: center;
+}
+h2+p:hover {
+	color:  #2D882D;
+	text-align: center;
+	border:  5px dashed rgba(255, 176, 170, 0.4);
+	cursor: pointer;
+}
+
+h2+p:hover {
+	color:  #2D882D;
+	text-align: center;
+	border:  5px dashed rgba(255, 176, 170, 0.4);
+	cursor: pointer;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.webtext {
+	color:  #FF27A6;
+	border: 3px solid rgba(240, 200, 10, 0.4);
+
+}
+.active{
+	color:  red;
+
+}
+#div1{
+	background: rgba(0, 0, 240, 0.3);
+}
+#div2{
+	background: rgba(0, 240, 0, 0.4);
+}
+
+
